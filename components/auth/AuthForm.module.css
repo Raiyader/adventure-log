@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 60%;
+}
+
+.form input {
+  margin-bottom: 0.5rem;
+}
+
+.form button {
+  width: 50%;
+  margin: auto;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 3px;
+  background: #2980b9;
+  color: white;
+  font-weight: bold;
+}
+
+.form button:hover {
+  background: linear-gradient(#2980b9, #94fdfd);
+  color: #303841;
+}
+
+@media (min-width: 576px) {
+  .form {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .form {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .form {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .form {
+    width: 10%;
+  }
+}

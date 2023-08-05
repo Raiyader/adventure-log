@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #202020;
+  height: 10vh;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Tilt Wrap", sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94fdfd;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #94fdfd;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navigation li {
+  margin-right: 1rem;
+}
+
+.navigation svg {
+  width: 2rem;
+  height: 1.5rem;
+}
+
+.navigation a {
+  height: 100%;
+  padding: 1.2rem 1rem;
+  text-decoration: none;
+  color: #2980b9;
+  font-size: 1rem;
+}
+
+.navigation a:hover,
+.navigation button:hover {
+  color: white;
+}
+
+.navigation button {
+  background: transparent;
+  border: none;
+  color: #2980b9;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+@media (min-width: 400px) {
+  .navigation button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .navigation a {
+    font-size: 1.5rem;
+  }
+
+  .navigation button {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navigation button {
+    margin-right: 5rem;
+  }
+}

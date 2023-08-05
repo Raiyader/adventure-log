@@ -1,0 +1,39 @@
+.btn {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #2980b9;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: linear-gradient(#2980b9, #94fdfd);
+  color: #303841;
+}
+
+@media (min-width: 576px) {
+  .btn {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    width: 15%;
+  }
+}

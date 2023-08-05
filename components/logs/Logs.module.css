@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .list {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .list {
+    width: 45%;
+  }
+}
