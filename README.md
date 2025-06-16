@@ -98,4 +98,4 @@ SOFTWARE.
 Mert Evirgen - evrgnmert@gmail.com<br><br>
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evirgenmert/)
 
-Project Link: [https://github.com/rhayaden/adventure-log](https://github.com/Raiyader/adventure-log)
+Project Link: [https://github.com/Raiyader/adventure-log](https://github.com/Raiyader/adventure-log)
