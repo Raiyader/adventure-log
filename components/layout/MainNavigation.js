@@ -20,7 +20,7 @@ function MainNavigation() {
     <header className={classes.header}>
       <div className={classes.logo}>
         <Link href="/">
-          <Image src={logo} alt="Adventure Log" width={120} height={120} />
+          <Image src={logo} alt="Adventure Log" width={80} height="auto" />
         </Link>
       </div>
       <nav className={classes.navigation}>
